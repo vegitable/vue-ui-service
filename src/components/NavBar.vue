@@ -1,25 +1,42 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav :class="background" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">Vegitable</a>
+      <a id="navbar-logo" class="navbar-item" href="/">
+        <Logo :passClass="logoPassClass" />
+      </a>
 
-      <a
-        role="button"
-        class="navbar-burger burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a id="navbar-menu">
+        <span :class="menuClass">
+          <i class="fa fa-lg fa-bars"></i>
+        </span>
       </a>
     </div>
   </nav>
 </template>
 
 <script>
+import Logo from './Logo.vue';
+
 export default {
   name: 'NavBar',
+  components: {
+    Logo,
+  },
+  props: {
+    background: String,
+    logoPassClass: String,
+    menuClass: String,
+  },
 };
 </script>
+
+<style>
+#navbar-logo {
+  padding: 8px 0 0px 16px;
+}
+
+#navbar-menu {
+  margin-left: auto;
+  padding: 20px 20px 0 0;
+}
+</style>

@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap:400,700');
+$family-sans-serif: "Source Sans Pro",
+sans-serif;
+
 $widescreen-enabled: false;
 $fullhd-enabled: false;
-$control-radius: 0px;
-$box-radius: 0px;
+$control-radius: 2px;
+$box-radius: 2px;
+$input-radius: 2px;
+$primary: #e7717d;
+$link: #23AF77;
 
-@import '../../node_modules/bulmaswatch/darkly/variables';
+body {
+  height: 100vh;
+  font-family: "Playfair Display",
+    serif,
+    italic;
+  font-weight: 900;
+}
+
+.primary-background {
+  background-color: $primary;
+}
+
 @import '../../node_modules/bulma/bulma.sass';
-@import '../../node_modules/bulmaswatch/darkly/overrides';
