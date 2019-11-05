@@ -1,11 +1,11 @@
 <template>
-  <span>
+  <span id="primary-background">
     <NavBar
       background="navbar is-primary"
       logoPassClass="title is-3 has-text-white-bis"
       menuClass="icon is-large has-text-white-bis"
     />
-    <section id="primary-background" class="hero is-fullheight-with-navbar is-primary">
+    <section class="hero is-fullheight-with-navbar is-primary">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-centered">

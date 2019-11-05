@@ -4,6 +4,7 @@ import './registerServiceWorker';
 import App from './App.vue';
 import LandingPage from './pages/LandingPage.vue';
 import SearchPage from './pages/SearchPage.vue';
+import MenuPage from './pages/MenuPage.vue';
 
 require('./assets/main.scss');
 
@@ -18,6 +19,10 @@ const router = new VueRouter({
   {
     path: '/search',
     component: SearchPage,
+  },
+  {
+    path: '/menu',
+    component: MenuPage,
   },
   ],
 });

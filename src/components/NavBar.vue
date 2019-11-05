@@ -6,9 +6,9 @@
       </router-link>
 
       <a id="navbar-menu">
-        <span :class="menuClass">
+        <router-link :class="menuClass" to="/menu">
           <i class="fa fa-lg fa-bars"></i>
-        </span>
+        </router-link>
       </a>
     </div>
   </nav>

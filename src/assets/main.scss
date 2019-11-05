@@ -22,4 +22,8 @@ body {
   background-color: $primary;
 }
 
+.link-background {
+  background-color: $link;
+}
+
 @import '../../node_modules/bulma/bulma.sass';
