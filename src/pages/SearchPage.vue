@@ -3,7 +3,7 @@
     <NavBar
       background="navbar"
       logoPassClass="title is-3 has-text-primary"
-      menuClass="has-text-primary"
+      menuClass="icon is-large has-text-primary"
     />
     <div class="hero is-large">
       <div class="hero-body">

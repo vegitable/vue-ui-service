@@ -36,7 +36,6 @@ export default {
 }
 
 #navbar-menu {
-  margin-left: auto;
-  padding: 20px 20px 0 0;
+  margin: 8px 8px 0 auto;
 }
 </style>
