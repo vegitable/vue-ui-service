@@ -1,9 +1,9 @@
 <template>
   <nav :class="background" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a id="navbar-logo" class="navbar-item" href="/">
+      <router-link id="navbar-logo" class="navbar-item" to="/">
         <Logo :passClass="logoPassClass" />
-      </a>
+      </router-link>
 
       <a id="navbar-menu">
         <span :class="menuClass">

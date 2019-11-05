@@ -1,5 +1,5 @@
 <template>
-  <section class="logo" id="thebedprojectlogo">
+  <section class="logo">
     <div :class="passClass">vegitable.</div>
   </section>
 </template>
