@@ -28,7 +28,7 @@
                       </span>
                     </div>
                   </div>
-                  <div class="button is-fullwidth is-link">Search</div>
+                  <div class="button is-fullwidth is-link" @click="submit">Search</div>
                 </form>
               </div>
             </div>
@@ -46,6 +46,11 @@ export default {
   name: 'landingPage',
   components: {
     NavBar,
+  },
+  methods: {
+    submit() {
+      this.$router.push('/search');
+    },
   },
 };
 </script>
