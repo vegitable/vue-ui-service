@@ -18,9 +18,15 @@
       </div>
     </nav>
     <div class="hero-body">
-      <div>
-        <h1 class="title has-text-white-bis is-4">Add to home screen</h1>
-      </div>
+      <ul>
+        <li>
+          <h1 class="title has-text-white-bis is-4">Add to home screen</h1>
+        </li>
+        <br />
+        <li>
+          <h1 class="title has-text-white-bis is-4">Share with a friend</h1>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -38,6 +44,6 @@ export default {
 
 <style scoped>
 #menu-left-arrow {
-  padding: 4px 4px 0 0;
+  padding: 4px 0 0 0;
 }
 </style>
